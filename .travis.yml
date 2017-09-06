@@ -1,0 +1,8 @@
+language:c#
+solution: GradeScores/GradeScores.sln
+install:
+  - nuget restore GradeScores/GradeScores.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release GradeScores/GradeScores.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./GradeScores.Tests/bin/Release/GradeScores.Test.dll
