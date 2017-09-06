@@ -12,7 +12,7 @@ namespace GradeScores
 
     public class Grader
     {
-        public List<PersonAndScore> ScoreList { get; set; } 
+        public List<PersonAndScore> ScoreList { get; set; }
 
         public Grader()
         {
@@ -22,13 +22,13 @@ namespace GradeScores
 
         public void ImportScoresFromFile(StreamReader file)
         {
-            
+
             string line;
             int lineCounter = 1; //to log line number in case of invalid input
-            
-           
 
-           
+
+
+
             while ((line = file.ReadLine()) != null)
             {
                 //read each line
@@ -61,14 +61,14 @@ namespace GradeScores
                 }
                 lineCounter++;
             }
-            
+
 
         }
 
 
 
         //this will sort Scores by Score, LastName and First Name respectively
-       
+
         public void SortByScoreAndName()
         {
             ScoreList = ScoreList.OrderByDescending(p => p.Score).ThenBy(p => p.LastName).ThenBy(p => p.FirstName).ToList();
@@ -80,14 +80,14 @@ namespace GradeScores
         {
 
             // Create a file to write to.
-            
 
-                foreach (PersonAndScore p in ScoreList)
-                {
-                    sw.WriteLine(p.LastName + ", " + p.FirstName + ", " + p.Score.ToString());
-                }
 
-           
+            foreach (PersonAndScore p in ScoreList)
+            {
+                sw.WriteLine(p.LastName + ", " + p.FirstName + ", " + p.Score.ToString());
+            }
+
+
         }
 
     }

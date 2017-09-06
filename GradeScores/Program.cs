@@ -10,7 +10,7 @@ namespace GradeScores
         {
 
             const string OUTPUT_FILE_ENDING = "-graded.txt";
-           
+
             try
             {
 
@@ -28,7 +28,8 @@ namespace GradeScores
                     //create a new Grader and import file into it
 
                     var grader = new Grader();
-                    using (StreamReader file = new StreamReader(fileLocation)) { 
+                    using (StreamReader file = new StreamReader(fileLocation))
+                    {
                         grader.ImportScoresFromFile(file);
                     }
 
@@ -43,15 +44,15 @@ namespace GradeScores
                     }
 
                     Console.WriteLine("Finished. Created " + outputFileLocation);
-                   
+
                 }
-                
+
             }
             catch (Exception e)
             {
                 Console.WriteLine("An error has occurred. Exception message is: " + e.Message);
             }
-            
+
         }
     }
 }

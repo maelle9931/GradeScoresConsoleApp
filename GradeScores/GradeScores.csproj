@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D141F68-22D8-483A-B8BC-E49A2C715C0D}</ProjectGuid>
+    <ProjectGuid>{85C01255-F41E-4FBD-A92E-AE89DF50A39A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GradeScores</RootNamespace>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Grader.cs" />
     <Compile Include="PersonAndScore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Grader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99B1EE18-F1C5-4BCB-BC18-892C2D417872}</ProjectGuid>
+    <ProjectGuid>{6DEF517F-1987-4DA4-8D53-6E382F147706}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GradeScoresTest</RootNamespace>
@@ -50,12 +50,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="GraderTest.cs" />
+    <Compile Include="ScoreListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GradeScoresConsoleApp\GradeScores\GradeScores.csproj">
-      <Project>{0d141f68-22d8-483a-b8bc-e49a2c715c0d}</Project>
+    <ProjectReference Include="..\GradeScores\GradeScores.csproj">
+      <Project>{85c01255-f41e-4fbd-a92e-ae89df50a39a}</Project>
       <Name>GradeScores</Name>
     </ProjectReference>
   </ItemGroup>

@@ -358,7 +358,7 @@ namespace GradeScoresTest
             var p4 = new PersonAndScore("KING", "MADISON", 89);
             var p5 = new PersonAndScore("BUNDY", "SOPHIA", 89);
             var p6 = new PersonAndScore("BUNDY", "SOPHIA", 83);
-            
+
 
             grader.ScoreList.Add(p1);
             grader.ScoreList.Add(p2);
