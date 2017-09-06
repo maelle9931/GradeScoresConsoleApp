@@ -1,0 +1,12 @@
+c:\users\maelle\documents\visual studio 2015\Projects\GradeScores\GradeScores\bin\Debug\GradeScores.exe.config
+c:\users\maelle\documents\visual studio 2015\Projects\GradeScores\GradeScores\bin\Debug\GradeScores.exe
+c:\users\maelle\documents\visual studio 2015\Projects\GradeScores\GradeScores\bin\Debug\GradeScores.pdb
+c:\users\maelle\documents\visual studio 2015\Projects\GradeScores\GradeScores\obj\Debug\GradeScores.exe
+c:\users\maelle\documents\visual studio 2015\Projects\GradeScores\GradeScores\obj\Debug\GradeScores.pdb
+C:\Users\maelle\Documents\Visual Studio 2015\Projects\GradeScores\GradeScores\obj\Debug\GradeScores.csprojResolveAssemblyReference.cache
+C:\Users\maelle\Documents\Visual Studio 2015\Projects\GradeScoresApp\GradeScores\bin\Debug\GradeScores.exe.config
+C:\Users\maelle\Documents\Visual Studio 2015\Projects\GradeScoresApp\GradeScores\obj\Debug\GradeScores.exe
+C:\Users\maelle\Documents\Visual Studio 2015\Projects\GradeScoresApp\GradeScores\obj\Debug\GradeScores.pdb
+C:\Users\maelle\Documents\Visual Studio 2015\Projects\GradeScoresConsoleApp\GradeScores\bin\Debug\GradeScores.exe.config
+C:\Users\maelle\Documents\Visual Studio 2015\Projects\GradeScoresConsoleApp\GradeScores\obj\Debug\GradeScores.exe
+C:\Users\maelle\Documents\Visual Studio 2015\Projects\GradeScoresConsoleApp\GradeScores\obj\Debug\GradeScores.pdb
