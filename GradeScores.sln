@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeScores", "GradeScores\GradeScores.csproj", "{0D141F68-22D8-483A-B8BC-E49A2C715C0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeScoresTest", "..\GradeScoresTest\GradeScoresTest\GradeScoresTest.csproj", "{99B1EE18-F1C5-4BCB-BC18-892C2D417872}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeScoresTest", "GradeScoresTest\GradeScoresTest.csproj", "{99B1EE18-F1C5-4BCB-BC18-892C2D417872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
