@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeScores", "GradeScores.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeScoresTest", "..\GradeScoresTest\GradeScoresTest.csproj", "{6DEF517F-1987-4DA4-8D53-6E382F147706}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeScores.Test", "..\GradeScores.Test\GradeScores.Test.csproj", "{8BB9CA42-3149-4064-B2CB-FB507D07AA26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6DEF517F-1987-4DA4-8D53-6E382F147706}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DEF517F-1987-4DA4-8D53-6E382F147706}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DEF517F-1987-4DA4-8D53-6E382F147706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB9CA42-3149-4064-B2CB-FB507D07AA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB9CA42-3149-4064-B2CB-FB507D07AA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB9CA42-3149-4064-B2CB-FB507D07AA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB9CA42-3149-4064-B2CB-FB507D07AA26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
